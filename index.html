@@ -1,0 +1,52 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript">
+        
+        
+        function add()
+        {
+            var a=parseFloat(document.getElementById("no1").value);
+            var b=parseFloat(document.getElementById("no2").value);
+           
+            document.write("Addition= ",a+b);
+        }
+        function sub()
+        {
+            var a=parseFloat(document.getElementById("no1").value);
+            var b=parseFloat(document.getElementById("no2").value);
+
+            document.write("Subtraction= ",a-b)
+        }
+        function mul()
+        {
+            var a=parseFloat(document.getElementById("no1").value);
+            var b=parseFloat(document.getElementById("no2").value);
+
+            document.write("Multiplication= ",a*b)
+        }
+        function div()
+        {
+            var a=parseFloat(document.getElementById("no1").value);
+            var b=parseFloat(document.getElementById("no2").value);
+
+            document.write("Division= ",a/b)
+        }
+
+
+    </script>
+ 
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <h1>Calculator by Harshil</h1>
+    <input  id="no1" placeholder="Enter 1st no.">
+    <br>
+    <input  id="no2" placeholder="Enter 2st no.">
+    <br>
+    <button onclick="add()" id="btn1">Addition</button>
+    <button onclick="sub()" id="btn2">Subtraction</button>
+    <button onclick="mul()" id="btn3">Mutltiplication</button>
+    <button onclick="div()" id="btn4">Division</button>
+</body>
+</html>
